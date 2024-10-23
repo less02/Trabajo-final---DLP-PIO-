@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- ======== Favicon ======= -->
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+    <!-- ======== Boxicons ======= -->
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- ======== Slider Js ======= -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.7.5/swiper-bundle.min.css"
+    />
+
+    <!-- ======== Hoja de estilo ======= -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Travel Website</title>
+  </head>
+  <body>
+    <!-- Precargado -->
+    <div class="loader">
+      <img src="./images/preloader.gif" alt="" />
+    </div>
+    <!-- Encabezado -->
+    <header class="header" id="header">
+      <!-- Navegación -->
+      <div class="navigation">
+        <nav class="nav d-flex">
+          <div class="logo">
+            <a href="/">
+              <img src="./images/logo.png" />
+            </a>
+          </div>
+          <ul class="nav-list d-flex">
+            <li class="nav-item">
+              <a href="#header" class="nav-link">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link"> Acerca de</a>
+            </li>
+            <li class="nav-item">
+              <a href="#service" class="nav-link"> Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a href="#trips" class="nav-link">Viajes</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contacto</a>
+            </li>
+          </ul>
+
+          <a href="#" class="btn sign-up">Inscribete</a>
+
+          <div class="hamburger">
+            <i class="bx bx-menu-alt-left"></i>
+          </div>
+        </nav>
+      </div>
+
+      <!-- Hero -->
+      <div class="swiper-container slider-1">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="./images/colombia.jpg" alt="" />
+          </div>
+
+          <div class="swiper-slide">
+            <img src="./images/magdalena.jpg" alt="">
+          </div>
+
+          <div class="swiper-slide">
+            <img src="./images/valle-cocora.jpg" alt="">
+          </div>
+
+          <div class="swiper-slide">
+            <video muted loop autoplay>
+              <source src="./images/cartagena-de-indias.mp4" type="video/mp4" />
+            </video>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="content">
+        <h1>
+           <br />
+          ¡Visita Colombia!
+        </h1>
+        <a href="#" class="btn">Empezar</a>
+      </div>
+
+      <div class="arrows d-flex">
+        <div class="swiper-prev d-flex">
+          <i class="bx bx-chevron-left swiper-icon"></i>
+        </div>
+        <div class="swiper-next d-flex">
+          <i class="bx bx-chevron-right swiper-icon"></i>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <!-- Sección Acerca de -->
+      <section class="section about" id="about">
+        <div class="row container">
+          <div class="col">
+            <div class="title">
+              <h1>Disfruta de increibles sitios ubicados en Colombia - "El museo de la tertulia - Cali, Colombia"</h1>
+            </div>
+            <p>
+              Este increible museo, se encuentra ubicado en la ciudad de Cali (Colombia) y anteriormente denominado Museo de Arte Moderno La Tertulia, es un espacio dedicado al arte. Alberga una destacada colección de obras gráficas, tanto de arte colombiano como americano, que se exhiben de forma permanente en uno de sus edificios. Además, sus salas son escenario de una continua programación de exposiciones de arte moderno y contemporáneo.
+            </p>
+            <a href="#" class="btn">Inicio</a>
+          </div>
+          <div class="col">
+            <div class="swiper-container slider-2">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="./images/la-tertulia.jpg" alt="hero image" />
+                </div>
+                <div class="swiper-slide">
+                  <video muted loop autoplay>
+                    <source src="./images/museo-tertulia.mp4" type="video/mp4" />
+                  </video>
+                </div>
+                <div class="swiper-slide">
+                  <img src="./images/hero-3.jpg" alt="" />
+                </div>
+              </div>
+              <div class="swiper-button-next">
+                <i class="bx bx-chevron-right swiper-icon"></i>
+              </div>
+              <div class="swiper-button-prev">
+                <i class="bx bx-chevron-left swiper-icon"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Recorrido por los lugares emblematicos de Colombia, con videos de experiencias personales</h2>
+        <iframe src="https://storymaps.arcgis.com/stories/8441a7450a2d46c19ca07446bdba3e27?cover=false" width="100%" height="700px" frameborder="0" allowfullscreen allow="geolocation"></iframe>
+    </section>
+
+      <!--  Sección de Servicios -->
+      <section class="section service" id="service">
+        <div class="row container">
+          <img src="./images/ermita.jpg" alt="" />
+          <div class="col">
+            <div class="title">
+              <h1>Que esperas para visitarnos?</h1>
+            </div>
+            <p>
+              Aquiere uno de nuestros tour especiales, que incluye recorridos en una de las 5 ciudades màs emblematicas de Colombia; Cali, Medellin, Huila  y San Andres
+            </p>
+            <div class="d-flex">
+              <h2>¡7 días de recorrido y diversión!</h2>
+              <div class="rating">
+                <span><i class="bx bxs-star"></i></span>
+                <span><i class="bx bxs-star"></i></span>
+                <span><i class="bx bxs-star"></i></span>
+                <span><i class="bx bxs-star"></i></span>
+                <span><i class="bx bxs-star"></i></span>
+              </div>
+            </div>
+            <div class="d-flex">
+              <h3 class="price">$ 3'600.000 c/u todo incluido</h3>
+              <a href="" class="btn">Comprar ahora</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Sección de Descuentos -->
+      <section class="section discount">
+        <div class="overlay">
+          <video class="video">
+            <source src="./images/cartagena-de-indias.mp4" type="video/mp4" />
+            <source src="./images/hero-2.webm" type="video/webm" />
+          </video>
+        </div>
+        <div class="content">
+          <h1>
+            Gana un 15% de descuento comprando desde nuestra pógina web<br />
+          </h1>
+          <a href="#" class="btn">Explorar el recorrido</a>
+          <span class="video-control d-flex"><i class="bx bx-play"></i></span>
+        </div>
+      </section>
+
+      <!-- Sección de Viajes -->
+      <section class="section trip" id="trips">
+        <div class="title">
+          <h1>
+            Planifica el tuyo <br />
+            Viaja con nosotros
+          </h1>
+          <p>
+            Explora nuestra cultura regional, viajando por Colombia.
+          </p>
+        </div>
+
+        <div class="row container">
+          <div class="swiper-container slider-3">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="./images/valle-cocora.jpg" alt="hero image" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/san-antonio.jpg" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/ermita.jpg" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/iglesia-san-antonio.jpg" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/san-andres.jpg" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/san-andres2.jpg" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/valle-cocora2.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="custom-next d-flex">
+            <i class="bx bx-chevron-right swiper-icon"></i>
+          </div>
+          <div class="custom-prev d-flex">
+            <i class="bx bx-chevron-left swiper-icon"></i>
+          </div>
+          <div class="custom-pagination d-flex"></div>
+        </div>
+        <div class="explore">
+          <a href="#" class="btn">Explorar</a>
+        </div>
+      </section>
+
+      <!-- Sección de Más Lugares -->
+      <section class="section more">
+        <div class="row container">
+          <div class="col">
+            <div class="title">
+              <h1>
+                Más lugares <br />
+                Para tu próximo viaje
+              </h1>
+              <p>
+                Tenemos también más lugares para viajar
+              </p>
+            </div>
+            <div class="tours">
+              <div class="box">
+                <img src="./images/buenaventura.jpg" alt="" />
+                <h3>Visita a Buenaventura</h3>
+                <h4>$1'500.000</h4>
+              </div>
+              <div class="box">
+                <img src="./images/magdalena.jpg" alt="" />
+                <h3>Visita a Magdalena</h3>
+                <h4>$2'100.000</h4>
+              </div>
+            </div>
+            <a href="#" class="btn">Explora más recorridos ahora</a>
+          </div>
+          <div class="col">
+            <img src="./images/colombia-2.jpg" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <!-- Sección de Boletín de Noticias -->
+      <section class="section newsletter">
+        <div class="row container">
+          <div class="col">
+            <h2>Subscribete a nuestro boletin de novededades</h2>
+            <p>
+              Para contactarnos mejor contigo, subscribete a nuestro boletin de información y comunicación
+            </p>
+          </div>
+          <form class="form">
+            <div>
+              <input type="email" placeholder="Email" />
+              <button>Enviar</button>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <!-- Sección de Contacto -->
+      <section class="section contact" id="contact">
+        <div class="title">
+          <h1>Contactanos</h1>
+          <p>
+            Nos encontramos ubicados en Santiago de Cali, en el occidente de la ciudad.
+          </p>
+        </div>
+
+        <div class="location container">
+          <iframe width="425" height="350" src="https://www.openstreetmap.org/export/embed.html?bbox=-76.81812286376955%2C3.299552482593165%2C-76.37660980224611%2C3.5308836173358062&amp;layer=mapnik" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/#map=12/3.4152/-76.5974">Ver el mapa más grande</a></small>
+        </div>
+      </section>
+    </main>
+
+    <!-- Pie de Página -->
+    <footer class="footer">
+      <div class="row container">
+        <!-- Columna de Información de la Compañía -->
+        <div class="col">
+          <h3>Company</h3>
+          <a href="#">Contact Us</a>
+          <a href="#">Executive Team</a>
+          <a href="#">Contact Us</a>
+          <a href="#">Executive Team</a>
+          <a href="#">Contact Us</a>
+        </div>
+        <div class="col">
+          <h3>Learning Center</h3>
+
+          <a href="#">Contact Us</a>
+          <a href="#">Executive Team</a>
+          <a href="#">Contact Us</a>
+          <a href="#">Executive Team</a>
+          <a href="#">Contact Us</a>
+        </div>
+        <div class="col">
+          <h3>Partner With Us</h3>
+
+          <a href="#">Contact Us</a>
+          <a href="#">Executive Team</a>
+          <a href="#">Contact Us</a>
+          <a href="#">Executive Team</a>
+          <a href="#">Contact Us</a>
+        </div>
+        <div class="col">
+          <img src="./images/ermita.jpg" alt="" />
+          <img src="./images/san-antonio.jpg" alt="" />
+          <img src="./images/la-tertulia.jpg" alt="" />
+          <img src="./images/iguana.jpg" alt="" />
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <!-- ======== SwiperJS ======= -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.7.5/swiper-bundle.min.js"></script>
+    <!-- ======== SCROLL REVEAL ======= -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js"></script>
+    <!-- ======== SliderJS ======= -->
+    <script src="js/slider.js"></script>
+    <!-- ======== IndexJS ======= -->
+    <script src="js/index.js"></script>
+  </body>
+</html>
